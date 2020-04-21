@@ -1,0 +1,589 @@
+# ---------------
+# Todo: mode: light | dark | auto
+mode: light # now only light
+
+# Theme color for customize
+# Notice: color value must in double quotes: "#000000"
+colors:
+  primary: "#5eb7b7"
+  # primary: "#6200ee"
+  # bg: "#EEEEEE"
+  selection_bg: "#96d1c7"
+  # tag_start_color:
+  # tag_end_color:
+
+# Favicon
+# ---------------
+favicon: https://wx2.sbimg.cn/2020/04/17/favicon.jpg
+
+# ---------------------------------------------------------------
+# Sidebar Settings
+# ---------------------------------------------------------------
+
+# Posts / Categories / Tags in sidebar.
+sidebar:
+  bg_image: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/stars-timing-1.jpg
+  bg_position: bottom 1rem center
+
+toc:
+  list_number: true
+  max_depth: 6
+  min_depth: 1
+  placeholder: 很遗憾，咱没写啥目录
+
+# Social Links.
+social:
+  - name: GitHub
+    link: https://github.com/kumybryce
+    icon: icon-github-line
+    color: "#181717"
+  - name: 码云部署的博客地址
+    link: https://kumybryce.gitee.io/myblog/
+    icon: iconboke
+  - name: 码云
+    link: https://gitee.com/kumybryce
+    icon: iconmayun
+# Extra links
+pages:
+  - name: css观赏
+    url: http://www.xinhongjiseu.club/page-mypage.html
+    icon: icon-genderless-line
+    color: "#efa8e4"
+  - name: color hunt配色网站
+    url: https://colorhunt.co/
+    icon: iconcolor
+    color: "#de7fab"
+  - name: leancloud评论管理
+    url: https://leancloud.cn/dashboard/data.html?appid=ENnEcdGIT16rS84XB1Oz0cwN-gzGzoHsz#/
+    icon: icondatabase
+    color: "#de7fab"
+  - name: 公益图床
+    url: https://sbimg.cn/
+    icon: iconxitonggongju-tuchuanggongju
+    color: 
+  - name: 小破站
+    url: https://www.bilibili.com/
+    icon: iconwf_Bzhan
+    color: 
+  - name: 中国大学慕课
+    url: https://kaoyan.icourse163.org/
+    icon: icontubiaozhizuomoban
+    color: 
+  - name: MSDN
+    url: https://msdn.itellyou.cn/
+    icon: iconxitong
+    color: 
+  - name: 鸠摩搜索图书
+    url: https://www.jiumodiary.com/
+    icon: icontushu2
+    color: 
+  - name: smallpdf
+    url: https://smallpdf.com/cn
+    icon: iconpdf
+    color: 
+  - name: word中的代码格式化
+    url: http://www.planetb.ca/syntax-highlight-word
+    icon: icondaima
+    color: 
+  - name: 小猴偷米
+    url: https://myseu.cn/
+    icon: iconxiaohou
+    color: "#77d8d8#
+  - name: git简介
+    url: https://www.liaoxuefeng.com/wiki/896043488029600/896067008724000
+    icon: icongit
+    color: 
+  - name: 3D Demo
+    url: https://edwardzhong.github.io/sites/demo/index.html
+    icon: iconicon-test
+    color: 
+  - name: coursera
+    url: https://www.coursera.org/search?query=andrew%20ng&isNewUser=true
+    icon: iconcoursera
+    color: 
+  - name: 爱给网
+    url: http://www.aigei.com/
+    icon: icongei
+    color: 
+  - name: 阿里巴巴矢量图标
+    url: https://www.iconfont.cn/
+    icon: iconiconfont
+    color: "#ff6363"
+  - name: 图标转换Convertio
+    url: https://convertio.co/
+    icon: iconzhuanhuan
+    color: 
+# pages
+# -------
+# friend
+anonymous_image: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/avatar/none.jpg
+
+girls:
+  enable: false
+
+banner:
+  enable: true
+  title: 山山的掉发历程
+  src: /js/ui/banner.js
+
+# Sidebar Avatar
+avatar:
+  enable: true
+  url: /img/favicon.jpg
+  # If true, the avatar would be dispalyed in circle.
+  rounded: true
+  # The value of opacity should be choose from 0 to 1 to set the opacity of the avatar.
+  opacity: 1
+  mickey_mouse: false
+
+# main menu navigation
+menu:
+  home:
+    path: /
+    icon: icon-home-4-line
+  archives:
+    path: /archives
+    icon: icon-archive-line
+  tags:
+    path: /tags
+    icon: icon-price-tag-3-line
+  categories:
+    path: /categories
+    icon: icon-folder-2-line
+  custom:
+    title: 文档
+    path: https://yun.yunyoujun.cn
+    icon: icon-settings-line
+
+# archive
+archive:
+  last_word: 没有更多的黑历史了_(:з」∠)_
+
+# https://github.com/MikeCoder/hexo-tag-cloud
+tag_cloud:
+  enable: false
+  width: 300
+  height: 300
+
+# You can set color for every tag or category.
+tags:
+  Python: "#ff6363"
+  通信: "#ff6363"
+  系统: "#97e5ef"
+  Linux: "#efa8e4"
+  Qt: "#f8e1f4"
+  opencv: "#efa8e4"
+  
+
+categories:
+  环境配置: dimgray
+  编程: dimgray
+  专业课: dimgray
+
+# post type
+types:
+  bilibili:
+    color: "#FF8EB3"
+    icon: icon-bilibili-line
+  github:
+    color: black
+    icon: icon-github-line
+  link:
+    color: blue
+    icon: icon-external-link-line
+
+# post_card
+post_card:
+  opacity: 0.9
+
+# link
+# -------
+preload:
+  style:
+    - /css/hexo-theme-yun.css
+  script:
+    - /js/utils.js
+    - /js/hexo-theme-yun.js
+
+prefetch:
+  # style:
+  #   - /css/prism.css
+  script:
+    - /js/sidebar.js
+
+dns_prefetch:
+  # - https://xxx
+
+# do more(TCP handshake...) than dns-fetch
+preconnect:
+  - https://cdn.jsdelivr.net
+
+# img loading="lazy"
+lazyload:
+  enable: true
+
+# stylesheets loaded in the <head>
+css:
+  - /css/hexo-theme-yun.css
+
+# scripts loaded in the end of the body
+js:
+  - /js/utils.js
+  - /js/hexo-theme-yun.js
+
+# custom your assets in head
+head:
+  css:
+  js:
+    base: 
+    async: 
+      iconfont: //at.alicdn.com/t/font_1763255_y9klqsvfr3b.js
+    defer:
+
+# cdn for third-party library (always include)
+cdn:
+  pre: ""
+  # pre: https://cdn.jsdelivr.net/gh/YunYouJun/yunyoujun.github.io
+  css:
+  # font
+  # font: https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap
+  # font: https://fonts.loli.net/css?family=Montserrat
+  # icon
+  # material-design-icons: https://fonts.googleapis.com/icon?family=Material+Icons+Outlined
+  # markdown
+  # github-markdown-css: https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/3.0.1/github-markdown.min.css
+  # star-markdown-css: https://cdn.jsdelivr.net/npm/star-markdown-css/dist/planet/planet-markdown.min.css
+  # blood-markdown-css: https://cdn.jsdelivr.net/npm/star-markdown-css/dist/blood/blood-common.min.css
+  js:
+    base:
+    async:
+      iconfont: //at.alicdn.com/t/font_1140697_9juba7x0cw.js
+    defer:
+
+# cdn for third-party library (alternative include)
+vendors:
+  algolia_search: https://cdn.jsdelivr.net/npm/algoliasearch@4/dist/algoliasearch-lite.umd.js
+  instant_search: https://cdn.jsdelivr.net/npm/instantsearch.js@4/dist/instantsearch.production.min.js
+  anime: https://cdn.jsdelivr.net/npm/animejs@latest/anime.min.js
+  valine_js: https://cdn.jsdelivr.net/npm/valine@latest/dist/Valine.min.js
+  minivaline_js: https://cdn.jsdelivr.net/npm/minivaline/dist/MiniValine.min.js
+  scrollreveal: https://cdn.jsdelivr.net/npm/scrollreveal/dist/scrollreveal.min.js
+  katex:
+    js: https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js
+    css: https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css
+    auto_render: https://cdn.jsdelivr.net/npm/katex@latest/dist/contrib/auto-render.min.js
+    copy_tex:
+      css: https://cdn.jsdelivr.net/npm/katex@latest/dist/contrib/copy-tex.min.css
+      js: https://cdn.jsdelivr.net/npm/katex@latest/dist/contrib/copy-tex.min.js
+  aplayer:
+    #css: https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css
+    #js: https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js
+    #meting: https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js
+    #js: https://cdn.bootcss.com/aplayer/1.10.1/APlayer.min.js
+   # meting: https://cdn.jsdelivr.net/npm/meting@1.2.0/dist/Meting.min.js
+    #css: https://cdn.bootcss.com/aplayer/1.10.1/APlayer.min.css
+  trianglify: https://cdn.jsdelivr.net/npm/trianglify@latest/dist/trianglify.min.js
+  fireworks: /js/ui/fireworks.js
+  search: /js/search/index.js
+  sidebar: /js/sidebar.js
+
+# UI
+# custom your color in colors
+fireworks:
+  enable: true
+  colors:
+    - "151,229,239"
+    - "255,240,245"
+    - "248,225,244"
+    # - '3, 28, 95'
+    # - '0, 8, 55'
+
+# https://github.com/qrohlf/trianglify
+trianglify:
+  enable: false
+  cell_size: 75
+  width: 800
+  height: 600
+  palette: '["YlGnBu", "GnBu", "Purples", "Blues"]'
+  opacity: 0.5
+
+cursor:
+  enable: true
+  default: https://cdn.jsdelivr.net/gh/kumybryce/resource@v1.102/mycdn/cur/Arrow.cur
+  pointer: https://cdn.jsdelivr.net/gh/kumybryce/resource@v1.102/mycdn/cur/Hand.cur
+  text: https://cdn.jsdelivr.net/gh/kumybryce/resource@v1.102/mycdn/cur/IBeam.cur
+
+smoothScroll: true
+
+# You can see effect in https://scrollrevealjs.org/
+scrollreveal: true
+
+bg_image:
+  enable: true
+  url: https://wx1.sbimg.cn/2020/04/17/desk111.jpg # recomend image related to your mode
+  #blur: 5px
+  opacity: 0.8
+
+# Reward (Donate)
+reward_settings:
+  # If true, reward would be displayed in every posts and pages by default.
+  # You can show or hide reward in a specific page throuth `reward: true | false` in Front Matter.
+  enable: true
+  icon: icon-hand-coin-line
+  comment: 伸手要钱💰买生发药水
+  # url: https://github.com/YunYouJun/yunyoujun.github.io/issues/96
+
+reward:
+  - name: 支付宝
+    path: https://wx1.sbimg.cn/2020/04/17/qq_pic_merged_1587074686756.jpg
+    color: "#00A3EE"
+    icon: icon-alipay-line
+  - name: 微信支付
+    path: https://wx1.sbimg.cn/2020/04/17/qq_pic_merged_1587074775997.jpg
+    color: "#2DC100"
+    icon: icon-wechat-pay-line
+  # - name: paypal
+  #   link: https://paypal.com
+  #   path: https://www.paypalobjects.com/images/shared/paypal-logo-129x32.svg
+  #   color: "#2D70B5"
+  #   icon: icon-paypal-line
+
+# Creative Commons 4.0 International License.
+# https://creativecommons.org/licenses/
+# Available values of license: by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | zero
+# You can set a language value if you prefer a translated version of CC license.
+# CC licenses are available in 39 languages, where you can find the specific and correct abbreviation you need.
+# Valid values of language: deed.zh, deed.fr, deed.de, etc.
+creative_commons:
+  license: by-nc-sa
+  language: deed.zh
+  post: true
+
+# AddThis Share, See: https://www.addthis.com
+# Go to https://www.addthis.com/dashboard to customize your tools.
+# add_this_id:
+
+# Post edit
+# Dependencies: https://github.com/hexojs/hexo-deployer-git
+post_edit:
+  enable: false
+  url: https://gitee.com/kumybryce/myblog/2020 # Link for view source.
+
+# Footer Settings
+# ---------------
+footer:
+  since: 2020
+
+  # Icon between year and copyright info.
+  icon:
+    # `heart` is recommended with animation in red (#ff0000).
+    name: icon-cloud-line
+    # If you want to animate the icon, set it to true.
+    animated: true
+    # Change the color of icon, using Hex Code.
+    color: "#0078E7"
+
+  powered:
+    # Hexo link (Powered by Hexo).
+    enable: true
+    # Version info of Hexo after Hexo link (vX.X.X).
+    version: true
+
+  # Beian icp information for Chinese users. In China, every legal website should have a beian icp in website footer.
+  # http://www.beian.miit.gov.cn
+  beian:
+    enable: false
+    # icp: 苏ICP备xxxxxxxx号
+
+  live_time:
+    enable: true
+    prefix: 本博客已萌萌哒地运行
+    suffix: (●'◡'●)
+    start_time: "2020-02-24T15:19:00"
+
+  # Any custom text can be defined here.
+  # custom_text: Hosted by <a href="https://pages.coding.me" rel="noopener" target="_blank">Coding Pages</a>
+
+# Post meta display settings
+post_meta:
+  item_text: true
+  created_at: true
+  updated_at: true
+  categories: true
+  tags: true
+
+# notice pin board
+notice:
+  enable: false
+  content: Thanks for watching my blog.
+
+# third party
+# ----------------
+
+# say something
+# https://say.elpsy.cn
+say:
+  enable: true
+  # api: https://say.elpsy.cn/sentences.json
+  # /data/sentences.json
+  api: https://cdn.jsdelivr.net/gh/ElpsyCN/say@gh-pages/sentences.json
+  # src is the script
+  src: /js/say.js
+  # https://developer.hitokoto.cn/sentence/
+  hitokoto:
+    enable: true
+    api: https://v1.hitokoto.cn
+    # api: https://v1.hitokoto.cn?c=a&c=b&c=c&c=d&c=k
+
+# you can new JSON file in your blog root folder
+# example: source/data/sentences.json
+# then set say.api: /data/sentences.json
+# https://say.elpsy.cn
+# [
+#   {
+#     "content": "Hello, World!",
+#     "author": "Brian Kernighan",
+#     "from": "The C Programming Language"
+#   },
+#   {
+#     "content": "我们一日日度过的所谓日常，实际上可能是接连不断的奇迹。",
+#     "from": "日常"
+#   },
+#   {
+#     "content": "是啊，我所爱的，即非群星，也非银河。",
+#     "author": "云游君",
+#     "from": "yunyoujun.cn"
+#   },
+#   {
+#     "content": "隐约雷鸣 阴霾天空 但盼风雨来 能留你在此",
+#     "from": "万叶集·雷神短歌"
+#   }
+# ]
+
+# Comments
+# -------
+comment:
+  enable: true
+  tips:
+    - 若您无 GitHub 账号，可直接在下方匿名评论。
+
+# GitHub Issues Link Button
+# https://help.github.com/en/github/searching-for-information-on-github/searching-issues-and-pull-requests
+github_issues:
+  enable: false
+  username: YunYouJun
+  repository: yunyoujun.github.io
+  filters: is:issue
+
+# Valine
+# You can get your appid and appkey from https://leancloud.cn
+# More info available at https://valine.js.org
+valine:
+  enable: true
+  appId: ENnEcdGIT16rS84XB1Oz0cwN-gzGzoHsz
+  appKey: 4eP69Ir5FxFhWy92iiR1QEUq
+  serverURLs:
+  # another choice: https://github.com/DesertsP/Valine-Admin
+  notify: false # mail notifier, See: https://github.com/xCss/Valine/wiki
+  verify: false # Verification code
+  placeholder: 来呀！快活呀！o(*￣▽￣*)o # comment box placeholder
+  avatar: # gravatar style
+  meta: nick,mail,link # custom comment header
+  pageSize: 10 # pagination size
+  visitor: true
+  visitor_index: false
+
+# MiniValine
+# You can get your appid and appkey from https://leancloud.cn
+# More info available at https://github.com/MiniValine/MiniValine
+minivaline:
+  enable: false
+  appId: # Your leancloud application appid
+  appKey: # Your leancloud application appkey
+  placeholder: Write a Comment # Comment box placeholder
+  adminEmailMd5: # The MD5 of Admin Email to show Admin Flag.
+  math: true # Support MathJax.
+  md: true # Support Markdown.
+  # MiniValine's display language depends on user's browser or system environment
+  # If you want everyone visiting your site to see a uniform language, you can set a force language value
+  # Available values: en  | zh-CN | (and many more)
+  # More i18n info: https://github.com/MiniValine/minivaline-i18n
+  lang:
+
+# Show Views / Visitors of the website / page with busuanzi.
+# Get more information on http://ibruce.info/2015/04/04/busuanzi
+busuanzi:
+  enable: false
+  site_uv: true
+  site_uv_icon: icon-user-line
+  site_pv: true
+  site_pv_icon: icon-eye-line
+  page_pv: true
+  page_pv_icon: icon-eye-line
+
+# Post wordcount display settings
+# Dependencies: https://github.com/theme-next/hexo-symbols-count-time
+symbols_count_time:
+  item_text_post: true
+  item_text_total: true
+  awl: 2
+  wpm: 275
+
+# search
+search:
+  bg_image: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/stars-timing-2.jpg
+  placeholder: 想要搜些什么？
+
+engine_search:
+  enable: false
+  #href: "https://www.google.com/search?q=site:"
+  # href: "https://www.baidu.com/s?wd=site:"
+  # href: "https://www.bing.com/search?q=site:"
+  domain: yunyoujun.cn
+
+# https://github.com/wzpan/hexo-generator-search
+local_search:
+  enable: true
+  src: /js/search/local-search.js
+
+# https://github.com/oncletom/hexo-algolia
+algolia_search:
+  enable: false
+  src: /js/search/algolia-search.js
+  hits:
+    per_page: 8 # the number of search results per page
+# Ads
+# ---------------
+# Google Adsense
+google_adsense:
+  enable: false
+  client: ca-pub-2245427233262012
+
+# Analysis
+# ---------------
+google_analytics:
+  enable: false
+  id: UA-163860217-1
+
+# math fomula
+# https://katex.org/
+katex:
+  copy_tex: true
+  global: true
+
+# plugins
+aplayer:
+  meting: true
+  asset_inject: false
+
+# special
+mourn:
+  enable: true
+  days:
+    - "4-4"
+    - "5-12"
+    - "9-18"
+# SEO
+# https://ziyuan.baidu.com/linksubmit/index
+baidu_push: false
+
