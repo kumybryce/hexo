@@ -2,13 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\themes",
-    "\\themes\\hexo-theme-yun-dev",
+    "\\themes\\hexo-theme-yun-0.6.0",
+    "\\themes\\hexo-theme-yun-0.6.0\\layout",
+    "\\themes\\hexo-theme-yun-0.6.0\\layout\\_third-party",
     "\\themes\\hexo-theme-yun-dev\\layout",
     "\\themes\\hexo-theme-yun-dev\\layout\\_partial",
     "\\themes\\hexo-theme-yun-dev\\layout\\_third-party",
     "\\themes\\hexo-theme-yun-dev\\source",
     "\\themes\\hexo-theme-yun-dev\\source\\js"
   ],
-  "SelectedNode": "\\themes\\hexo-theme-yun-dev\\source\\js\\hexo-theme-yun.js",
+  "SelectedNode": "\\themes\\hexo-theme-yun-dev",
   "PreviewInSolutionExplorer": false
 }

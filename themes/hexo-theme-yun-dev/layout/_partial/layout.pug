@@ -37,9 +37,9 @@ html(lang=config.language)
       //- widget
       include ../_widget/index.pug
     link(rel='stylesheet', href='https://cdn.jsdelivr.net/gh/kumybryce/resource@v1.109/mycdn/css/APlayer.min.css')
-    script(src='https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js')
+    script(src='https://cdn.jsdelivr.net/gh/kumybryce/resource@v1.110/mycdn/js/APlayer.min.js')
     script(src='https://cdn.jsdelivr.net/npm/meting@latest/dist/Meting.min.js')
-    meting-js#4976294412(server='netease', type='playlist',fixed='true', list-folded='true', autoplay='false', volume='0.4', theme='#4fd0d8', order='random', loop='all', preload='auto', mutex='true')
+    meting-js#4976294412(server='netease', type='playlist',fixed='true', list-folded='false', autoplay='false', volume='0.4', theme='#4fd0d8', order='random', loop='all', preload='auto', mutex='true')
     if theme.js
       each item in theme.js
         script(defer, src=url_for(theme.cdn.pre + item))

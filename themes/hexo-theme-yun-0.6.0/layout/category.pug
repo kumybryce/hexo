@@ -1,0 +1,11 @@
+extends _partial/layout.pug
+
+prepend title
+  | #{__('title.category') + ' - ' + page.category + ' | '}
+
+block content
+  include _mixin/post-collapse.pug
+  #category.hty-card
+    +page_header(page.category, theme.menu.categories.icon)
+    +post_collapse(page.posts)
+  include _partial/pagination.pug

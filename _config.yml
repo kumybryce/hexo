@@ -93,7 +93,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: hexo-theme-yun-dev
+theme: hexo-theme-yun-0.6.0
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -102,7 +102,7 @@ deploy:
   repo: 
     coding: https://e.coding.net/shanshan-hexo/shanshan.git
   branch: master
-  message: 更新了css，实现了播放器自动贴边功能（完善版本），此外，还增加了头像旋转、live2D等功能
+  message: 更新主题到0.6.0，新增相册功能，初步解决aplayer和目录冲突的问题，取消烟花
 
 plugins:
   #- hexo-algoliasearch
@@ -146,7 +146,7 @@ live2d:
     width: 130
     height: 250
     hOffset: 95
-    vOffset: 25
+    vOffset: 0
   mobile:
     show: false
     scale: 0.5

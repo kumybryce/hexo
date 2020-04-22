@@ -290,7 +290,7 @@ vendors:
 # UI
 # custom your color in colors
 fireworks:
-  enable: true
+  enable: false
   colors:
     - "151,229,239"
     - "255,240,245"
@@ -319,7 +319,7 @@ smoothScroll: true
 scrollreveal: true
 
 bg_image:
-  enable: true
+  enable: false
   url: https://wx1.sbimg.cn/2020/04/17/desk111.jpg # recomend image related to your mode
   #blur: 5px
   opacity: 0.8
