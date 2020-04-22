@@ -3,14 +3,8 @@
     "",
     "\\themes",
     "\\themes\\hexo-theme-yun-0.6.0",
-    "\\themes\\hexo-theme-yun-0.6.0\\layout",
-    "\\themes\\hexo-theme-yun-0.6.0\\layout\\_third-party",
-    "\\themes\\hexo-theme-yun-dev\\layout",
-    "\\themes\\hexo-theme-yun-dev\\layout\\_partial",
-    "\\themes\\hexo-theme-yun-dev\\layout\\_third-party",
-    "\\themes\\hexo-theme-yun-dev\\source",
-    "\\themes\\hexo-theme-yun-dev\\source\\js"
+    "\\themes\\hexo-theme-yun-0.6.0\\source\\css",
+    "\\themes\\hexo-theme-yun-0.6.0\\source\\css\\_components"
   ],
-  "SelectedNode": "\\themes\\hexo-theme-yun-dev",
   "PreviewInSolutionExplorer": false
 }
