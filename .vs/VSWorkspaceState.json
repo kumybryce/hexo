@@ -1,10 +1,13 @@
 {
   "ExpandedNodes": [
     "",
-    "\\themes",
     "\\themes\\hexo-theme-yun-0.6.0",
+    "\\themes\\hexo-theme-yun-0.6.0\\layout\\_partial",
+    "\\themes\\hexo-theme-yun-0.6.0\\layout\\_widget",
+    "\\themes\\hexo-theme-yun-0.6.0\\layout\\_widget\\search",
     "\\themes\\hexo-theme-yun-0.6.0\\source\\css",
     "\\themes\\hexo-theme-yun-0.6.0\\source\\css\\_components"
   ],
+  "SelectedNode": "\\themes",
   "PreviewInSolutionExplorer": false
 }

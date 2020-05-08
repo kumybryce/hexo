@@ -102,7 +102,7 @@ deploy:
   repo: 
     coding: https://e.coding.net/shanshan-hexo/shanshan.git
   branch: master
-  message: 更新主题到0.6.0，新增相册功能，复原aplayer，新主题又出现目录问题，目前目录问题比较大
+  message: 使用聚合图床，更换背景图片
 
 plugins:
   #- hexo-algoliasearch
